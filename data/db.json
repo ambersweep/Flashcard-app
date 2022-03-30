@@ -1,0 +1,51 @@
+{
+  "decks": [
+    {
+      "id": 1,
+      "name": "Rendering in React",
+      "description": "React's component structure allows for quickly building a complex web application that relies on DOM manipulation. "
+    },
+    {
+      "name": "React Router",
+      "description": "React Router is a collection of navigational components that compose declaratively with your application.",
+      "id": 2
+    },
+    {
+      "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt arcu vel ante sollicitudin convallis. Phasellus at rutrum augue, vel sollicitudin nulla. Maecenas vehicula efficitur massa, nec pharetra mi sodales nec. Ut ante felis, porttitor eget lorem a, fermentum interdum nisl. Nullam vestibulum dapibus orci, quis semper sapien tempor at.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt arcu vel ante sollicitudin convallis. Phasellus at rutrum augue, vel sollicitudin nulla. Maecenas vehicula efficitur massa, nec pharetra mi sodales nec. Ut ante felis, porttitor eget lorem a, fermentum interdum nisl. Nullam vestibulum dapibus orci, quis semper sapien tempor at.",
+      "id": 3
+    }
+  ],
+  "cards": [
+    {
+      "id": 2,
+      "front": "How do you modify the state of a different React component?",
+      "back": "Not at all! State is visible to the component only.",
+      "deckId": 1
+    },
+    {
+      "id": 3,
+      "front": "How do you pass data 'down' to a React child component?",
+      "back": "As properties or props",
+      "deckId": 1
+    },
+    {
+      "front": "What path will match the follow Route?\n<Route>\n  <NotFound />\n</Route>",
+      "back": "All paths. A route with no path matches all URL's",
+      "deckId": 2,
+      "id": 4
+    },
+    {
+      "front": "What does <Switch> do?",
+      "back": "Renders the first matching child <Route> ",
+      "deckId": 2,
+      "id": 5
+    },
+    {
+      "front": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt arcu vel ante sollicitudin convallis. Phasellus at rutrum augue, vel sollicitudin nulla. Maecenas vehicula efficitur massa, nec pharetra mi sodales nec. Ut ante felis, porttitor eget lorem a, fermentum interdum nisl. Nullam vestibulum dapibus orci, quis semper sapien tempor at.",
+      "back": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt arcu vel ante sollicitudin convallis. Phasellus at rutrum augue, vel sollicitudin nulla. Maecenas vehicula efficitur massa, nec pharetra mi sodales nec. Ut ante felis, porttitor eget lorem a, fermentum interdum nisl. Nullam vestibulum dapibus orci, quis semper sapien tempor at.",
+      "deckId": 1,
+      "id": 6
+    }
+  ]
+}
