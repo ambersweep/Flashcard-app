@@ -1,4 +1,4 @@
- # 🍎 🐛 Study Tool Application AKA Flashcard App 🍎 🐛 # 
+ # 🍎 🐛 Study Tool Application AKA Flashcard App # 
 
 React application for creating and studying flashcard decks.
 
